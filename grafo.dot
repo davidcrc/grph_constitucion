@@ -1,0 +1,24 @@
+digraph D {
+
+    1 [shape=diamond];
+    2;
+    90;
+    91;
+    112;
+    113 -> 117 [ label = "5. Destitución" ];
+    114 -> 117 [ label = "2. sometido a \n proceso judicial" ];
+    117 -> 134 [ label = "Disolver el \n Congreso" ];
+    134;
+    137;
+    137 -> 2 [ label = "incisos 9, \n 11 y 12 del artículo 2° \n y en el inciso 24, \napartado f"] ;
+    141 -> 173;
+    147;
+    156 -> 147 [ label = "el inciso 4 "] ;
+    165 -> 137;
+    173 -> 141;
+    200 -> 2 [ label = "3. artículo 2o, \nincisos 5 y 6" ];
+    200 -> 137;
+    206 -> 90 [ label = "Disposiciones \n Transitorias Especiales:\n Primera" ];
+    206 -> 112 [ label = "Disposiciones \n Transitorias Especiales:\n Primera" ];
+    206 -> 91 [ label = "Disposiciones \n Transitorias Especiales:\n Segunda" ];
+}
